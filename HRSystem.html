@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/HrSyetemStyle.css">
+    <title>HR System</title>
+</head>
+<body>
+   
+    <header>
+        <nav>
+            <h1>HR System</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section id="leftSection">
+            <form id="systemForm">
+                <fieldset>
+                    <h1>Add Employee</h1>
+                    <label>Name</label>
+                    <input type="text" id="name">
+                    <label>Email</label>
+                    <input type="text" id="email">
+                    <label>Department</label>
+                    <select id="department">
+                        <option>Call-Center</option>
+                        <option>Information-Technology</option>
+                        <option>Human-Resources</option>
+                    </select>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+        <section id="rightSection">
+            <div id="holder">
+                <div id="container"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer><h1>&copy; ASAC 201d19 Team</h1></footer>
+    
+    <script src="js/HrSystemApp.js"></script>
+</body>
+</html>
